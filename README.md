@@ -1,2 +1,0 @@
-# SNEAKER_STORE
-
