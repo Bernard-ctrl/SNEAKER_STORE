@@ -20,10 +20,10 @@
             <th>CVV</th>
 </tr>
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "SNEAKERSTORE";
+$servername = "sql100.infinityfree.com";
+$username = "if0_39079870";
+$password = "SVdQ0r5p6kfY";
+$dbname = "if0_39079870_SNEAKERSTORE";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

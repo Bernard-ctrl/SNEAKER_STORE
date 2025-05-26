@@ -1,10 +1,10 @@
 <?php
-     $servername = "localhost";
-     $username = "root";
-     $password = "";
-     $database = "SNEAKERSTORE";
+     $servername = "sql100.infinityfree.com";
+     $username = "if0_39079870";
+     $password = "SVdQ0r5p6kfY";
+     $database = "if0_39079870_SNEAKERSTORE";
 
-$conn = new mysql($servername, $username, $password, $database);
+$conn = new mysqli($servername, $username, $password, $database);
 
  if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
@@ -27,7 +27,7 @@ if ($conn->query($sql) === TRUE) {
 
     echo "<script>alert('Checkout complete');</script>";
 
-    echo "<script>window.setTimeout(function(){ window.location.href = 'index html'; }, 1000);</script>";
+    echo "<script>window.setTimeout(function(){ window.location.href = 'index.html'; }, 1000);</script>";
 } else {
     echo "Error: " .$sql . "<br>" . $conn->error;
 }
